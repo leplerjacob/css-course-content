@@ -1,0 +1,61 @@
+/* 
+.title {
+    color: red;
+}
+
+.title#title:hover {
+    color: gray
+}
+
+h1.title:hover {
+    color: yellow
+}
+
+.subtitle {
+    color: blue
+}
+
+#contact-us {
+    color: green;
+} */
+
+/* texstarea + button {
+    color: blue
+} */
+
+/* textarea ~ button {
+    color: red
+} */
+
+/* Selects only the children that are hovered over */
+/* form > input:hover {
+    border: solid red 1px
+} */
+
+/* img[src="../img/img-1.jpg"] {
+    max-width: 200px;
+} */
+
+/* ^ path starts with */
+img[src^="./img-2.jpg"] {
+    max-width: 40px;
+}
+
+/* $ path ends with */
+img[src$="/img-2.jpg"] {
+    max-width: 40px;
+}
+
+/* * path ends with */
+img[src*="/img-2.jpg"] {
+    max-width: 40px;
+}
+
+/* Linear Gradient */
+/* div:last-child {
+    background: linear-gradient(to right,rgb(0, 0, 0), rgb(255,255,255))
+}
+
+div:last-child:hover {
+    background: linear-gradient(to right,rgb(0, 0, 0), rgb(175, 20, 20))
+} */
